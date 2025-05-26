@@ -1,6 +1,43 @@
+<header>
+   <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-boxed mx-auto mt-lg-4">
+         <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo/logo.svg" alt /></a>
+         <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto align-items-lg-center">
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Landings</a>
+                  
+               </li>
+               
+                     <li class="dropdown-submenu dropend">
+                        <a class="dropdown-item dropdown-toggle" href="#">Utility</a>
+                       
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <div class="mt-3 mt-lg-0 d-flex align-items-center">
+               <a href="./signin.html" class="btn btn-light mx-2">Login</a>
+               <a href="./signup.html" class="btn btn-primary">Create account</a>
+            </div>
+         </div>
+      </nav>
+   </div>
+</header>
 
     <!-- ========== HEADER ========== -->
-    <header id="header" class="navbar navbar-expand-lg navbar-light navbar-end bg-white">
+    <!-- <header id="header" class="navbar navbar-expand-lg navbar-light navbar-end bg-white">
         <div class="container">
             <nav class="js-mega-menu navbar-nav-wrap">
                 <a class="navbar-brand" href="<?= PROOT; ?>app/" aria-label="Space">
@@ -43,5 +80,5 @@
                 </div>
             </nav>
         </div>
-    </header>
+    </header> -->
     <!-- ========== END HEADER ========== -->

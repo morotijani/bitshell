@@ -53,22 +53,11 @@
     </div>
 
     <!-- Go To -->
-    <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
-            "offsetTop": 700,
-            "position": {
-            "init": {
-                "right": "2rem"
-            },
-            "show": {
-                "bottom": "2rem"
-            },
-            "hide": {
-                "bottom": "-2rem"
-            }
-            }
-        }'>
-        <i class="bi-chevron-up"></i>
- 	</a>
+	<div class="btn-scroll-top">
+   <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
+      <path d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z" />
+   </svg>
+</div>
 
 	 <style>
         .cookie-wrapper {
@@ -109,6 +98,25 @@
 
 	<script src="<?= PROOT; ?>assets/js/vendor.min.js"></script>
 	<script src="<?= PROOT; ?>assets/js/theme.min.js"></script>
+
+
+	
+	<!-- Libs JS -->
+	<script src="<?= PROOT; ?>assets/js/bootstrap.bundle.min.js"></script>
+	<script src="<?= PROOT; ?>assets/js/simplebar.min.js"></script>
+	<script src="<?= PROOT; ?>assets/js/headhesive.min.js"></script>
+
+	<!-- Theme JS -->
+	<script src="<?= PROOT; ?>assets/js/theme.min.js"></script>
+
+
+   <!--Swiper JS -->
+   <script src="<?= PROOT; ?>assets/js/swiper-bundle.min.js"></script>
+   <script src="<?= PROOT; ?>assets/js/swiper.js"></script>
+   <script src="<?= PROOT; ?>assets/js/scrollCue.min.js"></script>
+   <script src="<?= PROOT; ?>assets/js/scrollcue.js"></script>
+
+
 
 	<!-- JS Plugins Init. -->
 	<script>
