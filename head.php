@@ -42,33 +42,3 @@
 </head>
 
 <body>
-    
-    <div class="nav-scroller bg-bod shadow-sm">
-        <nav class="nav nav-sm justify-content-between bg-soft-warning">
-            <div class="js-swiper-equal-height swiper swiper-equal-height">
-                <div class="swiper-wrapper">
-                    <?php 
-                        // if (is_array($coin_data)) {
-                        //     if (isset($coin_data['data'])) {
-                        //         foreach (array_slice($coin_data['data'], 0, 10) as $crypto) {
-                        //             $icon = "https://s2.coinmarketcap.com/static/img/coins/64x64/{$crypto['id']}.png";
-                        //             echo '
-
-                        //                 <div class="swiper-slide">
-                        //                     <div class="swiper-slide">
-                        //                         <a class="nav-link" href="javascript:;">
-                        //                             <img src="' . $icon . '" alt="' . $crypto['name'] .'" class="img-fluid w-rem-6 h-rem-6">
-                        //                             ' . $crypto['name'] . ' (' . $crypto['symbol'] . ') : $' . number_format($crypto['quote']['USD']['price'], 2) . '
-                        //                         </a>
-                        //                     </div>
-                        //                 </div>
-                                        
-                        //             ';
-                        //         }
-                        //     }
-                        // }
-                    ?>
-                </div>
-            </div>
-        </nav>
-    </div>

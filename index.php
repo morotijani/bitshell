@@ -26,7 +26,7 @@
                                         <div class="d-flex flex-column gap-3 mb-lg-10">
                                             <div class="d-flex flex-row align-items-center">
                                                 <a href="#!" class="bg-opacity-50 text-bg-primary border border-primary badge px-3 py-2 fw-medium rounded-pill fs-6">
-                                                    <span class="">Read our $6M Series A announcement</span>
+                                                    <span class="">bitshell.com</span>
                                                     <span class="ms-1">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                             fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -38,9 +38,8 @@
 											</div>
                                             <div class="d-flex flex-column gap-5">
                                                 <div class="d-flex flex-column gap-3">
-                                                    <h1 class="mb-0 text-white-stable display-4">Master your money with confidence</h1>
-                                                    <p class="mb-0 text-white-50 lead">Navigate your finances with confidence. Track
-                                                    spending, budgets, investments, net worth.</p>
+                                                    <h1 class="mb-0 text-white-stable display-4">Money movement, fueled by people</h1>
+                                                    <p class="mb-0 text-white-50 lead">The go-to platform for secure crypto transactions and management.</p>
                                                 </div>
                                                 <div class="d-flex flex-row align-items-center gap-2">
                                                     <a href="#!"><img src="<?= PROOT; ?>assets/media/svg/playstore.svg" alt="playstore"></a>
@@ -94,50 +93,34 @@
       	<!--Hero section-->
 
 	  	<!--Marquee-->
-      	<div class="py-xl-9 py-6" data-cue="fadeIn">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="marquee">
-							<div class="text-track h3 text-body-secondary mb-0">
-								Navigate your finances with confidence.
-
-								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-								class="bi bi-dot text-body-secondary" viewBox="0 0 16 16">
-								<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
-								</svg>
-
-								Track spending, budgets.
-
-								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-								class="bi bi-dot text-body-secondary" viewBox="0 0 16 16">
-								<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
-								</svg>
-
-								Master your money with confidence.
-
-								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-								class="bi bi-dot text-body-secondary" viewBox="0 0 16 16">
-								<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
-								</svg>
-								Navigate your finances with confidence.
-
-								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-								class="bi bi-dot text-body-secondary" viewBox="0 0 16 16">
-								<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
-								</svg>
-
-								Track spending, budgets.
-
-								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-								class="bi bi-dot text-body-secondary" viewBox="0 0 16 16">
-								<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
-								</svg>
-                     		</div>
-                  		</div>
-               		</div>
-            	</div>
-         	</div>
+      	<div class="nav-scroller">
+            <div class="container-fluid" data-cue="fadeIn">
+               <div class="row py-4 text-center justify-content-center gy-4">
+                  	<div class="col-lg-12 col-12">
+                     	<div class="marquee h-auto" data-cue="slideInLeft">
+							<div class="track d-flex gap-4">
+								<?php 
+									if (is_array($coin_data)) {
+										if (isset($coin_data['data'])) {
+											foreach (array_slice($coin_data['data'], 0, 10) as $crypto) {
+												$icon = "https://s2.coinmarketcap.com/static/img/coins/64x64/{$crypto['id']}.png";
+												echo '
+														<div class="mx-2">
+															<a class="nav-link" href="javascript:;">
+																<img src="' . $icon . '" alt="' . $crypto['name'] .'" class="img-fluid w-rem-6 h-rem-6" style="height: 1.5rem !important; width: 1.5rem !important;">
+																' . $crypto['name'] . ' (' . $crypto['symbol'] . ') : $' . number_format($crypto['quote']['USD']['price'], 2) . '
+															</a>
+														</div>
+												';
+											}
+										}
+									}
+								?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!--Marquee-->
 
