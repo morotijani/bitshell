@@ -11,7 +11,7 @@
     <main role="main">
         <!--Hero section-->
         <section class="pt-lg-10" style="
-               background: url(<?= PROOT; ?>assets/media/svg/curvlines.svg), linear-gradient(111.42deg, #4a00b7 0.42%, #c13dff 81.76%, #c13dff 96.06%);
+               background: url(<?= PROOT; ?>assets/media/svg/curvlines.svg), linear-gradient(300deg, rgb(0, 34, 73) -16.95%, rgb(2, 43, 104) 32.79%, rgb(4, 125, 214) 81.77%, rgb(53, 193, 239) 95.88%, rgb(45, 196, 195) 105.72%);
                background-position: center;
                background-repeat: no-repeat;
                background-size: cover;
