@@ -80,7 +80,7 @@
                            <div class="text-center mt-lg-8 d-flex justify-content-center">
                               <img src="<?= PROOT; ?>assets/media/Retail.png" alt="hero img"
                                  class="img-fluid dark-mode-none">
-                              <img src="<?= PROOT; ?>assets/media/mobile-hero.png" alt="hero img"
+                              <img src="<?= PROOT; ?>assets/media/Retail.png" alt="hero img"
                                  class="img-fluid d-none dark-mode-block">
                            </div>
                         </div>

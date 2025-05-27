@@ -42,11 +42,13 @@
 
 ?>
 
+<link rel="stylesheet" href="<?= PROOT; ?>assets/css/fonts/themes.min.css">
+<link rel="stylesheet" href="<?= PROOT; ?>assets/css/fonts/app.css">
     <header id="header" class="navbar navbar-expand-lg navbar-light navbar-end bg-white">
         <div class="container">
             <nav class="js-mega-menu navbar-nav-wrap">
                 <a class="navbar-brand" href="<?= PROOT; ?>app/" aria-label="Space">
-                    <img class="navbar-brand-logo" src="<?= PROOT; ?>assets/media/logo.svg" style="width: auto; height: 80px;" alt="Image Description">
+                    <img class="navbar-brand-logo" src="<?= PROOT; ?>assets/media/logo.svg" width="35" height="35" alt="Image Description">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
