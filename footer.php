@@ -148,7 +148,7 @@
             <div class="small mb-3 mb-lg-0 text-lg-center">
                Copyright &copy; <?= date("Y"); ?>
 
-               <span class="text-primary"><a href="<?= PROOT; ?>index">BitShell</a></span>
+               <span class="text-primary"><a href="<?= PROOT; ?>index">Investtether</a></span>
             </div>
          </div>
          <div class="col-lg-3">

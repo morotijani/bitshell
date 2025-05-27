@@ -26,7 +26,7 @@
                                         <div class="d-flex flex-column gap-3 mb-lg-10">
                                             <div class="d-flex flex-row align-items-center">
                                                 <a href="#!" class="bg-opacity-50 text-bg-primary border border-primary badge px-3 py-2 fw-medium rounded-pill fs-6">
-                                                    <span class="">bitshell.com</span>
+                                                    <span class="">investtether.com</span>
                                                     <span class="ms-1">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                             fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -225,7 +225,7 @@
 					<div class="col-xl-4 col-lg-6 col-12 order-1 order-lg-2" data-cue="slideInRight">
 						<div class="d-flex flex-column gap-4">
 							<div>
-								<span class="badge bg-warning bg-opacity-10 border border-warning-subtle text-warning-emphasis rounded-pill py-2 px-3 text-uppercase small ls-md">bitShell</span>
+								<span class="badge bg-warning bg-opacity-10 border border-warning-subtle text-warning-emphasis rounded-pill py-2 px-3 text-uppercase small ls-md">Investtether</span>
 							</div>
 							<div class="d-flex flex-column gap-2">
 								<div class="mt-3">
@@ -257,7 +257,7 @@
 					<div class="col-12" data-cue="slideInLeft">
 						<div class="d-flex flex-column gap-4">
 							<div>
-								<span class="badge bg-primary bg-opacity-10 border border-primary-subtle text-primary-emphasis rounded-pill py-2 px-3 text-uppercase small ls-md">bitShell</span>
+								<span class="badge bg-primary bg-opacity-10 border border-primary-subtle text-primary-emphasis rounded-pill py-2 px-3 text-uppercase small ls-md">Investtether</span>
 							</div>
 							<div class="d-flex flex-column gap-2">
 								<h3 class="mb-0 fs-2">More</h3>

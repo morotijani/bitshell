@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="<?= PROOT; ?>assets/css/xpto.css">
 
         
-    <title>BitShell</title>
+    <title>Investtether</title>
     <style>
         *, body {
             font-family: "Cutive Mono", monospace;

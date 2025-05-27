@@ -178,7 +178,7 @@
 							<div class="text-center">
 								<div class="small mb-3 mb-lg-0 text-body-tertiary">
 								Copyright &copy;
-								<span class="text-primary"><a href="#">BitShell</a></span>
+								<span class="text-primary"><a href="#">Investtether</a></span>
 								</div>
 							</div>
 						</div>
