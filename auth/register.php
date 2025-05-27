@@ -71,18 +71,13 @@
          </section>
 
 	<!-- ========== MAIN CONTENT ========== -->
-	<main id="content" role="main">
-		<div class="bg-soft-primary-light">
-			<div class="container content-space-1 content-space-t-md-3">
-				<div class="mx-auto" style="max-width: 30rem;">
-					<div class="card card-lg zi-2">
-						<div class="card-header text-center">
-							<h4 class="card-title">You're invited to Xpto!</h4>
-							<p class="card-text">Join Xpto and help build the future of finance</p>
-						</div>
-
-						<div class="card-body">
-							<form class="js-validate need-validate" id="signupForm" method="POST" novalidate>
+	<section>
+            <div class="container">
+               <div class="row justify-content-center mb-6">
+                  <div class="col-xl-5 col-lg-6 col-md-8 col-12">
+                     <div class="card shadow-sm mb-3">
+                        <div class="card-body">
+							<form class="needs-validation mb-6" id="signupForm" method="POST" novalidate>
 
 								<ul class="step step-sm step-icon-sm step-centered" id="step-TabFeatures" role="tablist">
 									<li class="step-item" role="presentation">
@@ -174,22 +169,52 @@
 									<small><a href="<?= PROOT; ?>index" class="text-dark">Go home.</a></small>
 								</div>
 							</form>
+						<				</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Shape -->
-		<div class="shape-container">
-			<div class="shape shape-bottom zi-1">
-				<svg viewBox="0 0 3000 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M0 600V350.234L3000 0V600H0Z" fill="#fff" />
-				</svg>
-			</div>
-		</div>
-
-   	</main>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="text-center">
+								<div class="small mb-3 mb-lg-0 text-body-tertiary">
+								Copyright &copy;
+								<span class="text-primary"><a href="#">BitShell</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</section>
+				<!--Sign up end-->
+				<div class="position-absolute end-0 bottom-0 m-4">
+					<div class="dropdown">
+					<button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+                  <i class="bi theme-icon-active"></i>
+                  <span class="visually-hidden bs-theme-text">Toggle theme</span>
+               </button>
+               <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bs-theme-text">
+                  <li>
+                     <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                        <i class="bi theme-icon bi-sun-fill"></i>
+                        <span class="ms-2">Light</span>
+                     </button>
+                  </li>
+                  <li>
+                     <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                        <i class="bi theme-icon bi-moon-stars-fill"></i>
+                        <span class="ms-2">Dark</span>
+                     </button>
+                  </li>
+                  <li>
+                     <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+                        <i class="bi theme-icon bi-circle-half"></i>
+                        <span class="ms-2">Auto</span>
+                     </button>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </main>
 
 	<?php include ("../footer.files.php"); ?>
 

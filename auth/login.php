@@ -68,7 +68,7 @@
                   <div class="col-xl-5 col-lg-6 col-md-8 col-12">
                      <div class="card shadow-sm mb-6">
                         <div class="card-body">
-						   <form class="js-validate needs-validation" id="loginForm" method="POST" novalidate>
+						   <form class="js-validate needs-validation mb-6" id="loginForm" method="POST" novalidate>
 
 									<ul class="step step-sm step-icon-sm step-centered" id="step-TabFeatures" role="tablist">
 										<li class="step-item" role="presentation">
