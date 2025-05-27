@@ -42,8 +42,8 @@
 	}
 
 ?>
- <main>
-         <div class="pattern-square"></div>
+ 	<main>
+        <div class="pattern-square"></div>
          <!--Pageheader start-->
          <section class="py-5 py-lg-8">
             <div class="container">
@@ -70,77 +70,77 @@
                         <div class="card-body">
 						   <form class="js-validate needs-validation" id="loginForm" method="POST" novalidate>
 
-<ul class="step step-sm step-icon-sm step-centered" id="step-TabFeatures" role="tablist">
-	<li class="step-item" role="presentation">
-		<a class="step-content-wrapper active" href="#stepEmail" id="stepEmail-tab" data-bs-toggle="tab" data-bs-target="#stepEmail" role="tab" aria-controls="stepEmail" aria-selected="true">
-			<span class="step-icon step-icon-soft-secondary">1</span>
-			<div class="step-content">
-				<h6 class="step-title">Email</h6>
-			</div>
-		</a>
-	</li>
+									<ul class="step step-sm step-icon-sm step-centered" id="step-TabFeatures" role="tablist">
+										<li class="step-item" role="presentation">
+											<a class="step-content-wrapper active" href="#stepEmail" id="stepEmail-tab" data-bs-toggle="tab" data-bs-target="#stepEmail" role="tab" aria-controls="stepEmail" aria-selected="true">
+												<span class="step-icon step-icon-soft-secondary">1</span>
+												<div class="step-content">
+													<h6 class="step-title">Email</h6>
+												</div>
+											</a>
+										</li>
 
-	<li class="step-item" role="presentation">
-		<a class="step-content-wrapper" href="#stepPassword" id="stepPassword-tab" onclick="stepPassword()" data-bs-toggle="tab" data-bs-target="#stepPassword" role="tab" aria-controls="stepPassword" aria-selected="false">
-			<span class="step-icon step-icon-soft-secondary">2</span>
-			<div class="step-content">
-				<h6 class="step-title">Secrete keys</h6>
-			</div>
-		</a>
-	</li>
-</ul>
+										<li class="step-item" role="presentation">
+											<a class="step-content-wrapper" href="#stepPassword" id="stepPassword-tab" onclick="stepPassword()" data-bs-toggle="tab" data-bs-target="#stepPassword" role="tab" aria-controls="stepPassword" aria-selected="false">
+												<span class="step-icon step-icon-soft-secondary">2</span>
+												<div class="step-content">
+													<h6 class="step-title">Secrete keys</h6>
+												</div>
+											</a>
+										</li>
+									</ul>
 
-<!-- Form -->
-<div id="step-one">
-	<div class="mb-4">
-		<label class="form-label" for="email">Your email</label>
-		<input type="email" autocomplete="off" class="form-control form-control-lg" name="email" id="email" placeholder="Enter your email address" aria-label="Enter your email address" required>
-		<span class="invalid-feedback">Please enter a valid email address.</span>
-	</div>
+									<!-- Form -->
+									<div id="step-one">
+										<div class="mb-4">
+											<label class="form-label" for="email">Your email</label>
+											<input type="email" autocomplete="off" class="form-control form-control-lg" name="email" id="email" placeholder="Enter your email address" aria-label="Enter your email address" required>
+											<span class="invalid-feedback">Please enter a valid email address.</span>
+										</div>
 
-	<div class="d-grid mb-4">
-		<button type="button" id="next-button" onclick="stepPassword()" class="btn btn-primary btn-lg">Next ></button>
-	</div>
-</div>
+										<div class="d-grid mb-4">
+											<button type="button" id="next-button" onclick="stepPassword()" class="btn btn-primary btn-lg">Next</button>
+										</div>
+									</div>
 
-<div id="step-two" class="d-none">
-	<div class="mb-4">
-		<label class="form-label" for="password">Your Password</label>
-		<input type="password" class="form-control form-control-lg" name="password" id="password" placeholder="***" aria-label="Enter your password" required>
-		<span class="invalid-feedback">Please enter a valid password address.</span>
-	</div>
+									<div id="step-two" class="d-none">
+										<div class="mb-4">
+											<label class="form-label" for="password">Your Password</label>
+											<input type="password" class="form-control form-control-lg" name="password" id="password" placeholder="***" aria-label="Enter your password" required>
+											<span class="invalid-feedback">Please enter a valid password address.</span>
+										</div>
 
-	<div class="d-grid mb-4">
-		<button type="button" id="submit-button" class="btn btn-primary btn-lg">Submit</button>
-	</div>
-</div>
+										<div class="d-grid mb-4">
+											<button type="button" id="submit-button" class="btn btn-primary btn-lg">Submit</button>
+										</div>
+									</div>
 
 
-<div class="text-center">
-	<small><a href="<?= PROOT; ?>index" class="text-dark">Go home.</a></small>
-</div>
+									<div class="text-center">
+										<small><a href="<?= PROOT; ?>index" class="text-dark">Go home.</a></small>
+									</div>
 
-                           </form>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-12">
-                     <div class="text-center">
-                        <div class="small mb-3 mb-lg-0 text-body-tertiary">
-                           Copyright &copy;
-                           <span class="text-primary"><a href="#">BitShell</a></span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!--Sign up end-->
-         <div class="position-absolute end-0 bottom-0 m-4">
-            <div class="dropdown">
-               <button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+								</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="text-center">
+								<div class="small mb-3 mb-lg-0 text-body-tertiary">
+								Copyright &copy;
+								<span class="text-primary"><a href="#">BitShell</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</section>
+				<!--Sign up end-->
+				<div class="position-absolute end-0 bottom-0 m-4">
+					<div class="dropdown">
+					<button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
                   <i class="bi theme-icon-active"></i>
                   <span class="visually-hidden bs-theme-text">Toggle theme</span>
                </button>

@@ -51,6 +51,24 @@
 	}
 
 ?>
+<main>
+        <div class="pattern-square"></div>
+         <!--Pageheader start-->
+         <section class="py-5 py-lg-8">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-4 offset-xl-4 col-md-12 col-12">
+                     <div class="text-center">
+                        <a href="<?= PROOT; ?>index"><img src="<?= PROOT; ?>assets/media/logo.svg"  width="35" height="35" alt="brand" class="mb-3" /></a>
+                        <h1 class="mb-1">Create Account						</h1>
+                        <p class="mb-0">Sign up now and get free account instant.
+
+</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
 
 	<!-- ========== MAIN CONTENT ========== -->
 	<main id="content" role="main">
@@ -98,7 +116,7 @@
 										<input type="text" autocomplete="off" class="form-control form-control-lg" name="invitationcode" id="invitationcode" placeholder="Enter code" aria-label="Enter your email address">
 									</div>
 									<div class="d-grid mb-4">
-										<button type="button" id="next-button" onclick="setup_step_two()" class="btn btn-primary btn-lg">Next ></button>
+										<button type="button" id="next-button" onclick="setup_step_two()" class="btn btn-primary btn-lg">Next</button>
 									</div>
 								</div>
 
