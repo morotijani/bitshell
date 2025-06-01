@@ -189,8 +189,8 @@
         <div class="container py-4">
             <header class="pb-3 mb-4">
                 <a href="<?= PROOT; ?>xd192/login" class="d-flex align-items-center text-body-emphasis text-decoration-none">
-                    <img src="<?= PROOT; ?>assets/media/logo.svg" class="me-2">
-                    <span class="fs-4">Xpto</span>
+                    <img src="<?= PROOT; ?>assets/media/logo.svg" width="35" height="35" class="me-2">
+                    <span class="fs-4">Investtether</span>
                 </a>
             </header>
 
